@@ -1,4 +1,4 @@
-from ..ml_model.train import train_model
+from ml_model import train_model
 def test_train_model():
 # Train the model
     model = train_model()
